@@ -1,0 +1,35 @@
+"/Users/winsold/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/winsold/Desktop/phystech/computer_graphics/2_triangles
+-- Found OpenGL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework   
+CMake Error at CMakeLists.txt:7 (add_subdirectory):
+  add_subdirectory given source "external" which is not an existing
+  directory.
+
+
+CMake Deprecation Warning at CMakeLists.txt:10 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Error at CMakeLists.txt:12 (include):
+  include could not find load file:
+
+    CreateLaunchers
+
+
+CMake Error at CMakeLists.txt:13 (include):
+  include could not find load file:
+
+    MSVCMultipleProcessCompile
+
+
+CMake Error at CMakeLists.txt:59 (create_target_launcher):
+  Unknown CMake command "create_target_launcher".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/winsold/Desktop/phystech/computer_graphics/2_triangles/cmake-build-debug/CMakeFiles/CMakeOutput.log".
