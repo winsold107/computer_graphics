@@ -70,7 +70,7 @@ int main( void )
 	GLuint vertexPosition_modelspaceID = glGetAttribLocation(programID, "vertexPosition_modelspace");
 	GLuint vertexColorID = glGetAttribLocation(programID, "vertexColor");
 
-	// Projection matrix : 45° Field of View, 4:3 ratio, display range : 0.1 unit <-> 100 units
+	// Projection matrix : 45ï¿½ Field of View, 4:3 ratio, display range : 0.1 unit <-> 100 units
 	glm::mat4 Projection = glm::perspective(45.0f, 4.0f / 3.0f, 0.1f, 100.0f);
 	// Camera matrix
 	glm::mat4 View       = glm::lookAt(
@@ -89,36 +89,47 @@ int main( void )
 		-1.0f,-1.0f,-1.0f,
 		-1.0f,-1.0f, 1.0f,
 		-1.0f, 1.0f, 1.0f,
+
 		 1.0f, 1.0f,-1.0f,
 		-1.0f,-1.0f,-1.0f,
 		-1.0f, 1.0f,-1.0f,
+
 		 1.0f,-1.0f, 1.0f,
 		-1.0f,-1.0f,-1.0f,
 		 1.0f,-1.0f,-1.0f,
+
 		 1.0f, 1.0f,-1.0f,
 		 1.0f,-1.0f,-1.0f,
 		-1.0f,-1.0f,-1.0f,
+
 		-1.0f,-1.0f,-1.0f,
 		-1.0f, 1.0f, 1.0f,
 		-1.0f, 1.0f,-1.0f,
+
 		 1.0f,-1.0f, 1.0f,
 		-1.0f,-1.0f, 1.0f,
 		-1.0f,-1.0f,-1.0f,
+
 		-1.0f, 1.0f, 1.0f,
 		-1.0f,-1.0f, 1.0f,
 		 1.0f,-1.0f, 1.0f,
+
 		 1.0f, 1.0f, 1.0f,
 		 1.0f,-1.0f,-1.0f,
 		 1.0f, 1.0f,-1.0f,
+
 		 1.0f,-1.0f,-1.0f,
 		 1.0f, 1.0f, 1.0f,
 		 1.0f,-1.0f, 1.0f,
+
 		 1.0f, 1.0f, 1.0f,
 		 1.0f, 1.0f,-1.0f,
 		-1.0f, 1.0f,-1.0f,
+
 		 1.0f, 1.0f, 1.0f,
 		-1.0f, 1.0f,-1.0f,
 		-1.0f, 1.0f, 1.0f,
+
 		 1.0f, 1.0f, 1.0f,
 		-1.0f, 1.0f, 1.0f,
 		 1.0f,-1.0f, 1.0f
