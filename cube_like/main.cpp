@@ -4,10 +4,8 @@
 #include <glfw3.h>
 GLFWwindow* window;
 #include <glm/glm.hpp>
-#include <cmath>
 using namespace glm;
 #include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtx/transform.hpp>
 #include <common/shader.hpp>
 
 int main( void )
@@ -81,40 +79,6 @@ int main( void )
             -1.0f, 0.0f, 0.0f,
             0.0f,  0.0f, -1.0f,
     };
-
-//    static GLfloat g_color_buffer_data[] = {
-//            0.9f,  0.1f,  0.0f,
-//            0.8f,  0.2f,  0.0f,
-//            0.7f,  0.3f,  0.0f,
-//
-//            0.9f,  0.1f,  0.0f,
-//            0.8f,  0.2f,  0.0f,
-//            0.2f,  0.8f,  0.0f,
-//
-//            0.8f,  0.2f,  0.0f,
-//            0.7f,  0.3f,  0.0f,
-//            0.2f,  0.8f,  0.0f,
-//
-//            0.9f,  0.1f,  0.0f,
-//            0.7f,  0.3f,  0.0f,
-//            0.2f,  0.8f,  0.0f,
-//
-//            0.9f,  0.1f,  0.0f,
-//            0.8f,  0.2f,  0.0f,
-//            0.7f,  0.3f,  0.0f,
-//
-//            0.9f,  0.1f,  0.0f,
-//            0.8f,  0.2f,  0.0f,
-//            0.2f,  0.8f,  0.0f,
-//
-//            0.8f,  0.2f,  0.0f,
-//            0.7f,  0.3f,  0.0f,
-//            0.2f,  0.8f,  0.0f,
-//
-//            0.9f,  0.1f,  0.0f,
-//            0.7f,  0.3f,  0.0f,
-//            0.2f,  0.8f,  0.0f,
-//    };
 
     static GLfloat g_color_buffer_data[] = {
             0.1f, 0.2f, 0.3f,
