@@ -13,7 +13,7 @@ CMake Deprecation Warning at external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy)
 -- Using Cocoa for window creation
 -- Using NSGL for context creation
 -- Building GLFW only for the native architecture
-CMake Deprecation Warning at CMakeLists.txt:24 (cmake_policy):
+CMake Deprecation Warning at CMakeLists.txt:23 (cmake_policy):
   The OLD behavior for policy CMP0026 will be removed from a future version
   of CMake.
 

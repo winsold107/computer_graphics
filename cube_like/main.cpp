@@ -97,21 +97,21 @@ int main( void )
             0.3f, 0.4f, 0.5f,
             0.3f, 0.4f, 0.5f,
 
-            0.1f, 0.2f, 0.3f,
-            0.1f, 0.2f, 0.3f,
-            0.1f, 0.2f, 0.3f,
+            0.17f, 0.26f, 0.35f,
+            0.17f, 0.26f, 0.35f,
+            0.17f, 0.26f, 0.35f,
 
             0.2f, 0.3f, 0.4f,
             0.2f, 0.3f, 0.4f,
             0.2f, 0.3f, 0.4f,
 
-            0.5f, 0.6f, 0.7f,
-            0.5f, 0.6f, 0.7f,
-            0.5f, 0.6f, 0.7f,
+            0.51f, 0.62f, 0.73f,
+            0.51f, 0.62f, 0.73f,
+            0.51f, 0.62f, 0.73f,
 
-            0.3f, 0.4f, 0.5f,
-            0.3f, 0.4f, 0.5f,
-            0.3f, 0.4f, 0.5f,
+            0.31f, 0.42f, 0.53f,
+            0.31f, 0.42f, 0.53f,
+            0.31f, 0.42f, 0.53f,
     };
 
 
@@ -127,6 +127,7 @@ int main( void )
 
 
     glEnable(GL_BLEND);
+    glEnable(GL_DEPTH_TEST);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     float it = 0;
